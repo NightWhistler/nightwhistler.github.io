@@ -32,16 +32,7 @@ if (a.getId().equals(b)) {
 Here we're trying to check the IDs, but we forgot the call to `getId()` for `b`.
 IDEs like IntelliJ will of course warn you about stuff like this, but that's still just a band-aid on a deeper problem.
 
-I have in the past implemented things like this:
-
- ```java
-public class StrictUtils {
-   public static <T> boolean strictEquals(T a, T b) {
-       return a.equals(b);
-   }
-}
-```
-This will only let your code compile if `a` and `b` are known to be the same type. 
+*EDIT: There was an incorrect example called `strictEquals` here in earlier versions, which didn't actually work. It's been removed.*
 
 We see something similar to the `contains` method on Collections:
 
