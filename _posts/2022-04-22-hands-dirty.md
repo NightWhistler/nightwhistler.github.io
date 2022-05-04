@@ -8,7 +8,7 @@ categories: blog
 ---
 There is something immensely satisfying about doing your own bike maintenance and then feeling the smoothness of the ride afterwards.
 
-![My bike chain]({{ "/assets/images/bike_chain.jpeg" | relative_url }}){:style="width: 40em;"}
+{% include image.html url="/assets/images/bike_chain.jpeg" description="My bike chain after cleaning" %}
 
 I didn't write about it here, but at the start of Covid I got rid of my car. My lease contract was ending, and I decided not to renew it. I wasn't driving to clients any more, I worked from home so no commute. It seemed like a perfect opportunity to save a ton of money.
 

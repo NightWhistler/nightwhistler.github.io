@@ -1,5 +1,7 @@
 <div class="text-center">
-  <img src="{{ include.url | relative_url }}" class="img-responsive img-rounded center-block" alt="{{ include.description }}">
-  <div class="caption center-block"><small><em>{{ include.description }}</em></small></div>
+  <figure class="image">
+    <img src="{{ include.url | relative_url }}" class="img-responsive img-rounded center-block" alt="{{ include.description }}">
+    <div class="caption center-block"><small><em><figcaption>{{ include.description }}</figcaption></em></small></div>
+  </figure>
   <div></div>
 </div>
