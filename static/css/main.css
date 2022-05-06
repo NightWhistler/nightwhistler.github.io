@@ -4,9 +4,9 @@ html,
 body {
   height: 100%;
   background-color: #f7f7f7;
-  /* font-family: 'Amiri', serif; */
+  font-family: 'Amiri', serif;
 
-  font-family: Courier Prime, monaco, monospace;
+  /* font-family: Courier Prime, monaco, monospace; */
 
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #4777d6;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blogpost{
-  text-align: justify;
+  text-align: left;
   line-height: 30px;
   font-size: 18px;
 }
