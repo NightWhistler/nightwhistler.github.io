@@ -2,10 +2,13 @@
 title: "Make them write bubble-sort"
 layout: post
 tags: [programming, interview]
+image: /assets/images/bubbles.jpg
 categories: blog
 ---
 
 I saw a joke post today about making someone write a bubble sort implementation on an interview. Companies asking to write that kind of stuff on a white board has become a bit of a standard joke, and it itself that makes sense.
+
+{% include image.html url="/assets/images/bubbles.jpg" description="Image by Sebastian Sørensen" %}
 
 Nobody will be writing sorting algorithms by hand any more, and the simplest correct answer would of course be to use whatever sorting algorithm is provided by your standard library.
 
