@@ -2,6 +2,7 @@
 title: "I'm a steam engine: a tale of executive dysfunction"
 layout: post
 tags: [ADHD, neurodiversity, executive dysfunction]
+image: /assets/images/gary-doughty-bxoBooJleSM-unsplash.jpg
 categories: blog
 ---
 I've been working almost fully remote for several years now. At my current client, we have 1 office day per 2 weeks which in itself is great. There is one thing that's playing havoc with my ability to focus though.
