@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "The benefit of the doubt"
 categories:
   - Blog
